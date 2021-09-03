@@ -1,0 +1,40 @@
+#table {
+  border-color: #111;
+}
+
+#table th, #table td {
+  border-color: #111;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	.jumbotron {
+    background: url("lnd1.jpeg") no-repeat;
+    width: 630px;
+    height: 591px;
+  }
+}
+
+@media (max-width: 767px){
+	.jumbotron {
+    background: url("lnd.jpeg") no-repeat;
+    width: 266px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.jumbotron {
+    background: url("lnd1.jpeg") no-repeat;
+    width: 630px;
+    height: 591px;
+  }
+}
+
+@media (min-width: 1200px){
+	.jumbotron {
+    background: url("lnd1.jpeg") no-repeat;
+    width: 630px;
+    height: 591px;
+  }
+}
