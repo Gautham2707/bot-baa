@@ -1,0 +1,120 @@
+.nav-link{
+    margin-top: 5px;
+    font-size: 120%;
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.jumbotron {
+    background: url("lnd1.jpeg") no-repeat;
+    width: 630px;
+    height: 591px;
+    margin-top: 120px;
+  }
+
+  .container .images img {
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    border-radius:10px;
+    padding-top:30px;
+    padding-bottom: 20px;
+    margin-left:15%;
+}
+}
+
+@media (max-width: 767px){
+	.jumbotron {
+    background: url("lnd.jpeg") no-repeat;
+    width: 266px;
+    height: 250px;
+    margin-top: 120px;
+  }
+
+  .container .images img {
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    border-radius:10px;
+    padding-top:30px;
+    padding-bottom: 20px;
+    margin-left:25%;
+  }
+  .nav-link{
+    font-size: 100%;
+    padding: 0.3rem;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.jumbotron {
+    background: url("lnd1.jpeg") no-repeat;
+    width: 630px;
+    height: 591px;
+    margin-top: 90px;
+  }
+
+  .container .images img {
+    width: 550px;
+    height: 450px;
+    align-items: center;
+    border-radius:10px;
+    padding-top:30px;
+    padding-bottom: 20px;
+    margin-left:20%;
+}
+}
+
+@media (min-width: 1200px){
+	.jumbotron {
+    background: url("lnd1.jpeg") no-repeat;
+    width: 630px;
+    height: 591px;
+    margin-top: 60px;
+  }
+
+  .container .images img {
+    width: 600px;
+    height: 500px;
+    align-items: center;
+    border-radius:10px;
+    padding-top:30px;
+    padding-bottom: 20px;
+    margin-left:25%;
+}
+}
+
+@media (min-width: 700px) and (max-width: 767px){
+    .container .images img {
+        width: 300px;
+        height: 250px;
+        margin-left:25%;
+    }
+}
+@media (min-width: 620px) and (max-width: 699px){
+    .container .images img {
+        width: 300px;
+        height: 250px;
+        margin-left:20%;
+    }
+}
+@media (max-width: 619px){
+    .jumbotron{
+        margin-top: 140px;
+    }
+    .container .images img {
+        margin-left: 11%;
+    }
+}
+@media (min-width: 500px) and (max-width: 619px){
+    .container .images img {
+        width: 300px;
+        height: 250px;
+        margin-left:15%;
+    }
+}
+@media (max-width: 499px){
+    .container .images img {
+        width: 250px;
+        height: 200px;
+        margin-left:11%;
+    }
+}
